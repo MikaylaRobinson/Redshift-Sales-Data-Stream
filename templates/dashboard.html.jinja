@@ -1,0 +1,8 @@
+{% import 'macros.html.jinja' as macros %}
+
+{% block content %}
+    <div>
+        <h5>Sales</h5>
+        {{ macros.show_table(sales) }}
+    </div>
+{% endblock %}
